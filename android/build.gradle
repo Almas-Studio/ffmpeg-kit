@@ -1,7 +1,10 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()
+        //mavenCentral()
+        maven {
+            url 'https://maven.myket.ir'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.1.0'
@@ -11,7 +14,10 @@ buildscript {
 allprojects {
     repositories {
         google()
-        mavenCentral()
+        //mavenCentral()
+        maven {
+            url 'https://maven.myket.ir'
+        }
     }
 }
 
